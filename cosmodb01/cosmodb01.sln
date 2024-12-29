@@ -5,7 +5,11 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cosmodb01", "cosmodb01.csproj", "{AF877004-7033-44AF-96C4-9ED6916FFDAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-sdk-queries", "..\06-sdk-queries\06-sdk-queries.csproj", "{E77F1F45-CFA5-44A0-9EE9-48E7EB8625E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-sdk-queries", "..\06-sdk-queries\06-sdk-queries.csproj", "{E77F1F45-CFA5-44A0-9EE9-48E7EB8625E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13-change-feed", "..\13-change-feed\13-change-feed.csproj", "{9ABF4294-F1D0-4AD2-BB6E-5B45A20FE021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-sdk-bulk", "..\08-sdk-bulk\08-sdk-bulk.csproj", "{62C9FAF7-00F2-4568-8C09-AD90C0114562}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{E77F1F45-CFA5-44A0-9EE9-48E7EB8625E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E77F1F45-CFA5-44A0-9EE9-48E7EB8625E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E77F1F45-CFA5-44A0-9EE9-48E7EB8625E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ABF4294-F1D0-4AD2-BB6E-5B45A20FE021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ABF4294-F1D0-4AD2-BB6E-5B45A20FE021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ABF4294-F1D0-4AD2-BB6E-5B45A20FE021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ABF4294-F1D0-4AD2-BB6E-5B45A20FE021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C9FAF7-00F2-4568-8C09-AD90C0114562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C9FAF7-00F2-4568-8C09-AD90C0114562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C9FAF7-00F2-4568-8C09-AD90C0114562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C9FAF7-00F2-4568-8C09-AD90C0114562}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
